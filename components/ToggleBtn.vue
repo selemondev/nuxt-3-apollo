@@ -1,12 +1,14 @@
 <script lang="ts" setup>
-
+const colorMode = useColorMode();
+const onClick = () => (colorMode.preference = (colorMode.value === 'light' ? 'dark' : 'light'))
 </script>
 
 <template>
-    <label class="relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" value="" class="sr-only peer">
-        <div
-            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-red-300 dark:peer-focus:ring-red-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-red-600">
-        </div>
-    </label>
+    <button @click="onClick"
+        class="py-1 px-2 bg-gray-200 rounded-md dark:bg-gray-200/10 dark:hover:bg-gray-200/20 transition-delay-timer">
+        <ColorScheme placeholder="...">
+            <Icon v-if="colorMode.value === 'dark'" name="ph:sun" class="w-4 h-4 dark:text-white" />
+            <Icon v-else name="ph:moon" class="w-4 h-4" />
+        </ColorScheme>
+    </button>
 </template>
