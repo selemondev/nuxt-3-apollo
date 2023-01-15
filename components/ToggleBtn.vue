@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+// This code uses the useColorMode composable to obtain the current color mode preference and creates an onClick function to toggle between light and dark mode by changing the preference value using a ternary operator.
 const colorMode = useColorMode();
 const onClick = () => (colorMode.preference = (colorMode.value === 'light' ? 'dark' : 'light'))
 </script>

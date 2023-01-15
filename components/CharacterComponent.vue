@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+// This code is importing a type called CharacterTypes from a 'CharactersType' file. It then defines a GraphQL query that retrieves a list of characters and their associated information, such as name, image, gender, etc. The `useQuery` composable is then called, passing in the query, to fetch the data from the GraphQL API. The composable returns an object with properties for the query result, any errors, and the loading state. The result is destructured and is typed with CharacterTypes.
 import type { CharacterTypes } from "../Types/CharactersType"
 const query = gql`
 query {
