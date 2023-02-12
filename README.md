@@ -30,12 +30,12 @@ yarn dev
 
 
     
-## Features
+## Features :sparkles:
 
-- :sparkles: Light and dark mode.
-- :fire: Fetching data from the Ricky and Morty GraphQL API using Apollo.
-- :art: Styling using TailwindCss
-- :iphone: Responsive design
+:sparkles: Customizable Light and Dark Modes for a personalized viewing experience.
+:fire: Effortless Data Retrieval from the Cutting-Edge Ricky and Morty GraphQL API through the use of Apollo.
+:art: Eye-catching and Contemporary Design, Achieved through the Implementation of TailwindCSS.
+:iphone: Seamless User Experience on all Devices, Thanks to the Responsive Design Approach.
 
 
 ## Note
