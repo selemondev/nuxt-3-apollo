@@ -1,5 +1,5 @@
 
-# Nuxt 3 + Nuxt Apollo
+# Nuxt 3 + Nuxt Apollo :rocket:
 
 This project is a demonstration of how to use [Nuxt 3](https://nuxt.com/) with [Nuxt Apollo](https://apollo.nuxtjs.org/) to fetch data from the [Ricky and Morty](https://rickandmortyapi.com/) GraphQL API and display it on the website. It also includes a light and dark mode feature created using the [@nuxtjs/color-mode](https://color-mode.nuxtjs.org/) module and styling is done using the [nuxt/tailwindcss](https://tailwindcss.nuxt.dev) module.
 
