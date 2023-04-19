@@ -7,7 +7,7 @@ This project is a demonstration of how to use [Nuxt 3](https://nuxt.com/) with [
 
 ## Installation
 
-1. Clone the repository
+1. Clone the repository to get started
 
 ```bash
 git clone https://github.com/your-username/nuxt-3-apollo.git
